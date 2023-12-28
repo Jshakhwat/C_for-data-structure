@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<math.h>
+
+//area of a triagle
+int main()
+{
+/*
+float base, height, area;
+
+printf("enter the base of a triangle: ");
+scanf("%f",&base);
+
+printf("enter the the height of a triangle: ");
+scanf("%f", &height);
+
+area = 0.5 * base * height;
+printf("the area of triangle is: %.2f", area);
+
+*/
+
+
+//max of 3
+/*
+float a, b, c;
+
+printf("enter the value of a,b,c: \n");
+scanf("%f %f %f",&a,&b,&c);
+
+if(a>b && a>c){
+    printf (" a is the largest of all");
+}
+else if (b>c && b>a){
+    printf("b is the largest of all");
+
+}
+else{
+    printf("c is the largest of all");
+}
+
+*/
+
+//minimum of 3
+/*
+float a, b, c;
+
+printf("enter the value of a,b,c: \n");
+scanf("%f %f %f",&a,&b,&c);
+
+if(a<b && a<c){
+    printf (" a is the smallest of all");
+}
+else if (b<c && b<a){
+    printf("b is the smallest of all");
+
+}
+else{
+    printf("c is the smallest of all");
+}
+*/
+
+float a,b,c,d, result;
+
+printf("enter the value of A : ");
+scanf("%f",&a);
+
+printf("enter the value of b: ");
+scanf("%f",&b);
+
+printf("enter the value of C: ");
+scanf("%f",&c);
+
+printf("enter the value of D: ");
+scanf("%f",&d);
+
+result = a*b+pow(c,2)+2*d;
+
+printf("the total number is: %f", result);
+
+
+    return 0;
+}
